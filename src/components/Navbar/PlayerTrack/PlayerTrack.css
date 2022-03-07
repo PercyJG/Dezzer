@@ -1,0 +1,18 @@
+.slider-bar {
+    width: 620px;
+}
+
+.track-image {
+    margin: 0 5px;
+}
+.track-details {
+    margin: 0 5px;
+}
+
+.track-info p {
+    text-align: center;
+}
+
+.album-tracks {
+    margin: 0 5px;
+}
