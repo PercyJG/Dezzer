@@ -1,0 +1,27 @@
+@import "../../../App.css";
+
+.navbar__player-control__group {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__player-control__item {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__player-control__item .icon {
+    background-color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 0.5em;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    border: none;
+}
+
+.navbar__player-control__item .icon:hover {
+    background-color: gray;
+    transition: background-color 1000ms linear;
+}

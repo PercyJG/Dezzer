@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    position: initial;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 0 10px;
+}
+.navbar > *{
+    padding: 0 10px;
+}
+.navbar__logo{
+    flex-grow: 1;
+    width: 20%;
+}
+
+.navbar__player-control{
+    flex-grow: 1;
+    width: 20%;
+}
+
+.navbar__player-track {
+    flex-grow: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 14px;
+    height: 96%;
+    width: 60;
+}
+
+.navbar__player-search{
+    flex-grow: 1;
+}

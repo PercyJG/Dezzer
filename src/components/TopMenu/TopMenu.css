@@ -1,0 +1,22 @@
+.topbar {
+    height: 30px;
+    position: initial;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.topbar ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.topbar li {
+    padding: 1px;
+}
+
+.topbar a {
+    padding: 10px 30px;
+}
