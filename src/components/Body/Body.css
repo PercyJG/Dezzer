@@ -1,0 +1,19 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.fakesidenav{
+    width: 28.4%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 100%;
+    background-color: aquamarine;
+}

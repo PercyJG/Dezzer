@@ -6,11 +6,11 @@ function TopMenu() {
         <>
             <div className='topbar'>
                 <ul>
-                    <li> <a>My Music</a></li>
-                    <li> <a>Playlist</a></li>
-                    <li> <a>Radio</a></li>
-                    <li> <a>My Tunes</a></li>
-                    <li> <a>Store</a></li>
+                    <li> My Music</li>
+                    <li> Playlist</li>
+                    <li> Radio</li>
+                    <li> My Tunes</li>
+                    <li> Store</li>
                 </ul>
             </div>
         </>

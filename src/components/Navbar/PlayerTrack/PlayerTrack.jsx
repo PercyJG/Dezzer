@@ -5,7 +5,7 @@ function PlayerTrack() {
     return (
         <>
             <div className='track-image'>
-                <p>here comes an image</p>
+                <img src='https://e-cdns-images.dzcdn.net/images/artist/4eb6517a096da2ccd8768f1513593cb8/56x56-000000-80-0-0.jpg' alt="description of linking parck" />
             </div>
             <div className='track-details'>
                 <div className='track-info'>
@@ -21,7 +21,7 @@ function PlayerTrack() {
                             </g>
                         </svg>
                     </button>
-                    <input type="range" className="slider-bar" />
+                    <input type="range" className="slider-bar" min={0} max={100} />
                     <button>
                         <svg viewBox="0 0 16 16" width="16" height="16" focusable="false" role="img" aria-hidden="true" className="sk__sc-1vdzswr-0 hyAbfI">
                             <g>

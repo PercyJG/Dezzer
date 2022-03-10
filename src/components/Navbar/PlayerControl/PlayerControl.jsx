@@ -3,10 +3,35 @@ import { useState } from 'react'
 import './PlayerControl.css'
 
 function PlayerControl() {
+    const [isLoading, setIsLoading] = React.useState(true);
+    const [data, setData] = React.useState([]);
     const [play, setPlay] = useState(true);
     const [volume, setVolume] = useState(true)
+    const [audio, setAudio] = useState(new Audio('https://cdns-preview-1.dzcdn.net/stream/c-179888dacdd6a28871ead1caebf86c79-8.mp3'));
 
-    const handlePlay = () => setPlay(!play);
+    React.useEffect(() => {
+      /*  const url = "https://api.deezer.com/track/676183";
+        fetch(url)
+            .then((response) => response.json())
+            .then((json) => setData(json))
+            .catch((error) => console.log(error));*/
+    }, []);
+
+    React.useEffect(() => {
+        if (data.length !== 0) {
+            setIsLoading(false);
+        }
+        //console.log(data);
+    }, [data]);
+
+    const handlePlay = () => {
+        setPlay(!play);
+        if (play) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
 
     const handleVolume = () => setVolume(!volume);
 

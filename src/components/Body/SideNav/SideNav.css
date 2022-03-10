@@ -1,0 +1,27 @@
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color: bisque;
+    position:relative;
+}
+
+.favorite-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.favorite-item > *{
+    margin: 13px 13px;
+}
+
+.favorite-item__content{
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.favorite-item__media{
+    width: 40%;
+}

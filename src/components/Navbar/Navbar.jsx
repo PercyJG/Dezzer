@@ -16,14 +16,11 @@ function Navbar() {
                 <div className='navbar__logo'>
                     <Logo></Logo>
                 </div>
-                <div className='navbar__player-control'>
-                    <PlayerControl></PlayerControl>
-                </div>
                 <div className='navbar__player-track'>
                     <PlayerTrack></PlayerTrack>
                 </div>
-                <div className='navbar__player-search'>
-                    <PlayerSearch></PlayerSearch>
+                <div className='navbar__player-control'>
+                    <PlayerControl></PlayerControl>
                 </div>
             </nav>
             <TopMenu></TopMenu>
